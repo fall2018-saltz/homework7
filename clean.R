@@ -47,3 +47,8 @@ arrests
 
 mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
 mergedataframe
+
+statedf <- data.frame(state.name,state.center,state.area)
+statedf
+colnames(statedf) <- c("stateName","xstate","ystate","stateArea")
+statedf$stateName <- tolower(statedf$stateName)
