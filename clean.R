@@ -51,6 +51,5 @@ mergedataframe
 statedf <- data.frame(state.name,state.center,state.area)
 statedf
 
-colnames(statedf)<-c("stateName","xstate","ystate","stateArea")
 
-statedf
+statedataframe <- statedf
