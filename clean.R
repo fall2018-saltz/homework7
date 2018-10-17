@@ -51,10 +51,4 @@ mergedataframe
 statedf <- data.frame(state.name,state.center,state.area)
 statedf
 
-colnames(statedf) <- c("stateName","xstate","ystate","stateArea")
 
-statedf$stateName <- tolower(statedf$stateName)
-
-mergestate <- merge(mergedataframe, statedf, by = "stateName")
-
-mergestate
