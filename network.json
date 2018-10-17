@@ -23,7 +23,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "Dataframe.R"
+            "target": "dataframe.R"
         }
     ],
     "nodes": [
@@ -38,10 +38,10 @@
         {
             "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Dataframe.R",
+            "name": "dataframe.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 23:46:30",
+    "updated_at": "2018-10-17 23:49:52",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
