@@ -11,18 +11,20 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
+            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         }
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "rohanmahajan",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 21:57:47",
+    "updated_at": "2018-10-17 22:03:07",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
