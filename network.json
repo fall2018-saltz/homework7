@@ -1,0 +1,47 @@
+{
+    "collaborators": [
+        "rohanmahajan"
+    ],
+    "created_at": "2018-10-11 15:08:04",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergestatedf",
+                    "output": "mergestatedf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Dataframe.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "rohanmahajan",
+            "desc": "",
+            "name": "Dataframe.R",
+            "task_status": "in progress"
+        }
+    ],
+    "updated_at": "2018-10-17 23:46:30",
+    "url": "https://github.com/fall2018-saltz/homework7"
+}
