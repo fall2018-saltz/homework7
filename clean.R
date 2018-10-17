@@ -57,3 +57,7 @@ statedataframe
 
 colnames(statedataframe)<-c("stateName","xstate","ystate","stateArea")
 statedataframe
+
+statedataframe$stateName <- tolower(statedataframe$stateName)
+mergestate <- merge(mergedataframe, statedataframe, by = "stateName")
+mergestate
