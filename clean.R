@@ -55,5 +55,5 @@ statedf
 statedataframe <- statedf
 statedataframe
 
-colnames(statedataframe) <- ("stateName","xstate","ystate","stateArea")
+colnames(statedataframe)<-c("stateName","xstate","ystate","stateArea")
 statedataframe
