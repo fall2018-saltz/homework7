@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergestatedf",
+                    "output": "mergestatedf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "dataframe.R"
         }
     ],
     "nodes": [
@@ -29,6 +40,6 @@
             "name": "dataframe.R"
         }
     ],
-    "updated_at": "2018-10-17 23:47:24",
+    "updated_at": "2018-10-17 23:47:38",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
