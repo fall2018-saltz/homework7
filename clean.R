@@ -1,6 +1,7 @@
 
 #IST 687 
 #Homework 7 - Maps
+#Submitted by Rohan Mahajan on October 17th, 2018.
 
 library(ggplot2)
 library(ggmap)
