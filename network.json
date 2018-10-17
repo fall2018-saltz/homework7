@@ -17,8 +17,8 @@
         {
             "ports": [
                 {
-                    "input": "statedf",
-                    "output": "statedf",
+                    "input": "statedataframe",
+                    "output": "statedataframe",
                     "type": "r_obj"
                 }
             ],
@@ -36,10 +36,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "rohanmahajan",
             "desc": "",
-            "name": "Dataframe.R"
+            "name": "Dataframe.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 23:32:53",
+    "updated_at": "2018-10-17 23:37:45",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
