@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "dataframe.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "datamap",
+                    "type": "png"
+                }
+            ],
+            "source": "dataframe.R",
+            "target": "datamap.png"
         }
     ],
     "nodes": [
@@ -40,8 +50,11 @@
             "desc": "",
             "name": "dataframe.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "datamap.png"
         }
     ],
-    "updated_at": "2018-10-17 23:49:52",
+    "updated_at": "2018-10-17 23:54:10",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
