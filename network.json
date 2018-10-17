@@ -17,8 +17,8 @@
         {
             "ports": [
                 {
-                    "input": "statedataframe",
-                    "output": "statedataframe",
+                    "input": "mergestatedf",
+                    "output": "mergestatedf",
                     "type": "r_obj"
                 }
             ],
@@ -42,6 +42,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 23:37:45",
+    "updated_at": "2018-10-17 23:40:02",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
