@@ -1,5 +1,6 @@
 
 #IST 687 
+#Homework 7 - Maps
 
 library(ggplot2)
 library(ggmap)
