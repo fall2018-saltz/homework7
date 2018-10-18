@@ -68,6 +68,7 @@ statedataframe
 statedataframe$stateName <- tolower(statedataframe$stateName)
 statedataframe
 
+#Merging the dataframes.
 mergestatedf <- merge(mergedataframe, statedataframe, by = "stateName")
 mergestatedf
 
