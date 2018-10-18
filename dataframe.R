@@ -7,6 +7,7 @@ library(ggmap)
 #Loading the map data.
 us <- map_data("state")
 
+#I used ggplot and map_id to get the data of the map. Then I added stateArea in the aesthetics
 datamap <- ggplot(mergestatedf, aes(map_id = stateName))
 datamap <- datamap + geom_map(map = us, aes(fill=stateArea))
 datamap <- datamap + expand_limits(x= us$long, y = us$lat)
