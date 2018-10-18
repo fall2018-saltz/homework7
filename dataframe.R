@@ -25,6 +25,8 @@ datapoint
 mergestatedf[32,]
 
 #The coordinates of New York -75.1449,  43.1361)
+
+#I then zoomed in the data using coord_map and sent 
 datazoom <- datapoint + scale_x_continuous(limits = c(-85.1449, -65.1449), expand = c(0,0)) + scale_y_continuous(limits=c(33.1361, 53.1361), expand = c(0,0))
 datazoom <- datazoom + coord_map() 
 datazoom
