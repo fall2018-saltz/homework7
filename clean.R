@@ -64,6 +64,7 @@ statedataframe
 colnames(statedataframe)<-c("stateName","xstate","ystate","stateArea")
 statedataframe
 
+#Changed the state names to lowercase.
 statedataframe$stateName <- tolower(statedataframe$stateName)
 statedataframe
 
