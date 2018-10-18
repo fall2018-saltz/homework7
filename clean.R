@@ -5,6 +5,7 @@
 #Submitted by Rohan Mahajan on October 17th, 2018.
 #Submitted using MIDST
 
+#Loading the libraries
 library(ggplot2)
 library(ggmap)
 library(tibble)
