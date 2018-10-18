@@ -9,6 +9,7 @@ us <- map_data("state")
 
 #I used ggplot and map_id to get the data of the map. Then I added stateArea in the aesthetics
 #to fill the map by the state area.
+#I used geom_map to show the map.
 datamap <- ggplot(mergestatedf, aes(map_id = stateName))
 datamap <- datamap + geom_map(map = us, aes(fill=stateArea))
 datamap <- datamap + expand_limits(x= us$long, y = us$lat)
@@ -35,5 +36,5 @@ mergestatedf[32,]
 
 #I then zoomed in the data using coord_map and sent 
 datazoom <- datapoint + scale_x_continuous(limits = c(-85.1449, -65.1449), expand = c(0,0)) + scale_y_continuous(limits=c(33.1361, 53.1361), expand = c(0,0))
-datazoom <- datazoom + coord_map() 
+datazoom <- datazoom + coord_map() + ggtitle("Zoomed Map") 
 datazoom
