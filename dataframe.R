@@ -24,6 +24,8 @@ datamapmurder <- datamapmurder + expand_limits(x= us$long, y = us$lat)
 datamapmurder <- datamapmurder + coord_map() + ggtitle("Map by Murder")
 datamapmurder
 
+#I plotted population values in circles on the map which had Murder already given. As I'm assuming we had to repeat that step.
+#I used geom_point for that and used the stateCenter coordinates as the aesthetics.
 datapoint <- datamapmurder + geom_point(data = mergestatedf, aes(x=mergestatedf$xstate, y=mergestatedf$ystate , size = mergestatedf$population)) 
 datapoint
 
