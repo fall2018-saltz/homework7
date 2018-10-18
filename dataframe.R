@@ -15,3 +15,6 @@ datamapmurder <- datamapmurder + geom_map(map = us, aes(fill=Murder))
 datamapmurder <- datamapmurder + expand_limits(x= us$long, y = us$lat)
 datamapmurder <- datamapmurder + coord_map() + ggtitle("Map by Murder")
 datamapmurder
+
+datapoint <- datamapmurder + geom_point(data = mergestatedf, aes(x=mergestatedf$xstate, y=mergestatedf$ystate , size = mergestatedf$population)) 
+datapoint
