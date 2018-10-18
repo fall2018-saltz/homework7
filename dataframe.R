@@ -1,8 +1,10 @@
 
 #Installing the libraries once again as MIDST requires that.
+
 library(ggplot2)
 library(ggmap)
 
+#Loading the map data.
 us <- map_data("state")
 
 datamap <- ggplot(mergestatedf, aes(map_id = stateName))
