@@ -18,3 +18,9 @@ datamapmurder
 
 datapoint <- datamapmurder + geom_point(data = mergestatedf, aes(x=mergestatedf$xstate, y=mergestatedf$ystate , size = mergestatedf$population)) 
 datapoint
+
+mergestatedf[32,]
+
+datazoom <- datapoint + scale_x_continuous(limits = c(-85.1449, -65.1449), expand = c(0,0)) + scale_y_continuous(limits=c(33.1361, 53.1361), expand = c(0,0))
+datazoom <- datazoom + coord_map() 
+datazoom
