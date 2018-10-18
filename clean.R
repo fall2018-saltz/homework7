@@ -51,6 +51,7 @@ mergedataframe
 mergedataframe$stateName <- tolower(mergedataframe$stateName)
 
 #I first tried to add the stateArea and stateCenter directly to mergedataframe but then the stateCenter
+#values came in as a vector. To prevent this, I created a seperate dataframe called statedf and it worked.
 statedf <- data.frame(state.name,state.center,state.area)
 statedf
 
