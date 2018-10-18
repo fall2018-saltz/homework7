@@ -50,6 +50,7 @@ mergedataframe <- merge(cleanCensus,arrests, by = "stateName")
 mergedataframe
 mergedataframe$stateName <- tolower(mergedataframe$stateName)
 
+#I first tried to add the stateArea and stateCenter directly to mergedataframe but then the stateCenter
 statedf <- data.frame(state.name,state.center,state.area)
 statedf
 
