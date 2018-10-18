@@ -79,8 +79,11 @@
         },
         {
             "name": "datapoint.png"
+        },
+        {
+            "name": "datazoom.png"
         }
     ],
-    "updated_at": "2018-10-18 01:14:22",
+    "updated_at": "2018-10-18 02:01:30",
     "url": "https://github.com/fall2018-saltz/homework7"
 }
