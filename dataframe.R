@@ -1,4 +1,5 @@
 
+#Installing the libraries once again as MIDST requires that.
 library(ggplot2)
 library(ggmap)
 
@@ -9,6 +10,8 @@ datamap <- datamap + geom_map(map = us, aes(fill=stateArea))
 datamap <- datamap + expand_limits(x= us$long, y = us$lat)
 datamap <- datamap + coord_map() + ggtitle("State Area")
 datamap
+
+#I switched the stateArea to Murder for this question.
 
 datamapmurder <- ggplot(mergestatedf, aes(map_id = stateName))
 datamapmurder <- datamapmurder + geom_map(map = us, aes(fill=Murder))
