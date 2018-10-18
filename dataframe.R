@@ -19,6 +19,7 @@ datamapmurder
 datapoint <- datamapmurder + geom_point(data = mergestatedf, aes(x=mergestatedf$xstate, y=mergestatedf$ystate , size = mergestatedf$population)) 
 datapoint
 
+#Since New York is the 32nd column, I checked the coordinates of New York. (I also cross checked online as)
 mergestatedf[32,]
 
 datazoom <- datapoint + scale_x_continuous(limits = c(-85.1449, -65.1449), expand = c(0,0)) + scale_y_continuous(limits=c(33.1361, 53.1361), expand = c(0,0))
